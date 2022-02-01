@@ -16,7 +16,7 @@
       "email": "deri.netuchi@gmail.com"
     }
   ],
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "require": {
     "illuminate/database": "10.x-dev",
     "filp/whoops": "^2.14",
