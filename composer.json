@@ -1,0 +1,25 @@
+{
+  "name": "derizer/framework",
+  "description": "PHP Web Framework",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Derizer\\": "Vendor/Derizer",
+      "App\\Configs\\": "App/Configs",
+      "App\\Controllers\\": "App/Controllers",
+      "App\\Models\\": "App/Models"
+    }
+  },
+  "authors": [
+    {
+      "name": "Deri Kurniawan",
+      "email": "deri.netuchi@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "illuminate/database": "10.x-dev",
+    "filp/whoops": "^2.14",
+    "symfony/dotenv": "6.1.x-dev"
+  }
+}
